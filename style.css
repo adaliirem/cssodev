@@ -1,0 +1,201 @@
+section{
+    padding: 0px 0%;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.kutu{
+    
+    height:680px;
+    background-color:black;
+    width: 370px;
+}
+
+.home-img img{
+    max-width:100%;
+    height: 680px;
+    width: 470px;
+    margin-left: -139px;
+    margin-top: 2px;
+   
+}
+
+.home-text p{
+    color: #444444;
+    font-family: Big should;
+    font-size: 22px;
+    margin-left: -230px;
+    margin-top: -120px;
+}
+
+.home-text button{
+    color: white;
+    background-color: black;
+    width: 230px;
+    height: 60px;
+    margin-left: -230px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.home-text button:hover{
+    color: white;
+    background-color: #D5966C;
+}
+
+.resim{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.resim-text h1{
+    margin-left: 200px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.resim-text p{
+    margin-left: 200px ;
+    font-size: 20px;
+    color: #444444;
+}
+
+.resim-img img{
+    
+    max-width:100%;
+    height: 400px;
+    width: auto;
+    margin-left: -90px;
+    margin-top: 120px;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.galery-img img{
+    max-width:85%;
+    height: auto;
+    width: 300;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.galery2-img img{
+    margin-left: 90px;
+    margin-top: 20px;
+    width: auto;
+    height: 320px;
+    margin-right: 50px;
+}
+
+.kutu2 {
+    height:350px;
+    background-color:black;
+    width: 455px;
+    margin-right: 50px;
+    margin-left:90px;
+}
+
+.yazi h1{
+    font-size: 45px;
+    margin-left: 60px;
+    color: white;
+
+}
+
+.yazi p{
+    font-size: 20px;
+    margin-left: 0px;
+    color: white;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    background: black;
+    height: 250px;
+    margin-top: 150px;;
+}
+
+.footer-logo img{
+    margin-left: 200px;
+    height: 60px;
+    width: auto;
+}
+
+.footer-yazi p{
+    color: white;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+   text-decoration: none;
+   color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+ }
+
+ .socials a:hover i{
+    color: #D5966C;
+ }
+
+ .harita img{
+    width: auto;
+    height: 633px;
+ }
+
+.harita button{
+    color: white;
+    background-color: black;
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.harita button:hover{
+    color: white;
+    background-color: #D5966C;
+    margin-bottom: 500px;
+    margin-top: -200px;
+}
