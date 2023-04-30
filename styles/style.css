@@ -9,7 +9,7 @@ section{
     align-items: center;
 }
 
-.kutu{
+.home-box{
     
     height:680px;
     background-color:black;
@@ -50,26 +50,26 @@ section{
     background-color: #D5966C;
 }
 
-.resim{
+.image{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
     align-items: center;
 }
 
-.resim-text h1{
+.image-text h1{
     margin-left: 200px;
     font-size: 40px;
     margin-top: 100px;
 }
 
-.resim-text p{
+.image-text p{
     margin-left: 200px ;
     font-size: 20px;
     color: #444444;
 }
 
-.resim-img img{
+.image-wrapper img{
     
     max-width:100%;
     height: 400px;
@@ -101,7 +101,7 @@ section{
     margin-right: 50px;
 }
 
-.kutu2 {
+.galery-wrapper {
     height:350px;
     background-color:black;
     width: 455px;
@@ -109,14 +109,14 @@ section{
     margin-left:90px;
 }
 
-.yazi h1{
+.galery-text h1{
     font-size: 45px;
     margin-left: 60px;
     color: white;
 
 }
 
-.yazi p{
+.galery-text p{
     font-size: 20px;
     margin-left: 0px;
     color: white;
@@ -151,7 +151,7 @@ footer{
     text-align: center;
 }
 
-.socials{
+.footer-socials{
     list-style: none;
     display: flex;
     align-items: center;
@@ -159,30 +159,30 @@ footer{
     margin: 1rem 0 3rem 0;
 }
 
-.socials li{
+.footer-socials li{
     margin: 0 10px;
 }
 
-.socials a{
+.footer-socials a{
    text-decoration: none;
    color: white;
 }
 
-.socials a i{
+.footer-socials a i{
     font-size: 1.1rem;
     transition: color .4s ease;
  }
 
- .socials a:hover i{
+ .footer-socials a:hover i{
     color: #D5966C;
  }
 
- .harita img{
+ .location-map img{
     width: auto;
     height: 633px;
  }
 
-.harita button{
+.location-map button{
     color: white;
     background-color: black;
     width: 230px;
@@ -191,11 +191,14 @@ footer{
     text-transform: uppercase;
     cursor: pointer;
     transition: color 0.4s linear;
+    position: absolute;
+    left: 181px;
+    top: 8px;
 }
 
-.harita button:hover{
+.location-map button:hover{
     color: white;
     background-color: #D5966C;
     margin-bottom: 500px;
-    margin-top: -200px;
 }
+
